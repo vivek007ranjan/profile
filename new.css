@@ -1,0 +1,111 @@
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:bold;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+#particles-js, #image-canvas {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  z-index: 0;
+ 
+}
+#form-image-button {
+  position: absolute;
+  bottom: 20px;
+  left: 150px;
+  padding: 10px 20px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+}
+#particle-count-input {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border: none;
+  z-index: 1;
+}
+.dontShow{
+  display:none
+}
+
+.header{
+  position: absolute;
+  z-index: 1000;
+  backdrop-filter:blur(50px);
+
+}
+.nav{
+  display: flex;
+  justify-content: space-around;
+ 
+}
+
+.logo {
+  width: 100px;
+  overflow: hidden;
+  padding:20px;
+}
+
+.logoImg{
+  width: 100%;
+ 
+}
+
+.nav-list ul{
+
+  display: flex;
+}
+.nav-list ul li {
+  padding:20px;
+text-decoration: none;
+ list-style-type: none;
+color:white;
+font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:bold;
+  font-style: normal;
+ 
+
+}
+a:hover{
+  color: tomato;
+  cursor: pointer;
+  
+}
+
+.sideBtns{
+  display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   gap:20px;
+}
+.tryBtn{
+  background-color: deepskyblue;
+  padding:8px 10px 8px 10px;
+  border-radius: 20px;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:800;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+.fa-sun-bright {
+color: white;
+}
